@@ -1,4 +1,5 @@
 * [Home](README)
 * [考点记录](points)
 * [网络基础](content1)
+* [简单的OSI模型 & TCP/UDP区别](tcpudp.md)
 * [Stay Hugry, Stay Foolosh](stay_hungry_stay_foolish)
