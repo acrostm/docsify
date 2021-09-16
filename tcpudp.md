@@ -14,6 +14,7 @@
 |**3**|网络层|Network Layer|从源到终点传送分组，提供网络互联，负责网络中两个主机之间的通信|分组（即IP数据报、数据报）|IP, ICMP, RIP, IGMP, OSPF|
 |**2**|数据链路层|Data Link Layer|将比特组织成帧结构，提供逐跳交付，负责网络中两个相邻结点之间的通信|数据帧（Dataframe）|以太网, 网卡, 交换机, PPTP, L2TP, **ARP**, ATMP|
 |**1**|物理层|Physical Layer|经过媒体透明的传输比特流|比特流（bit)|物理线路, 光纤, 中继器, 集线器, 双绞线|
+
 ![](https://tuchuang-jiachzha.oss-cn-hangzhou.aliyuncs.com/img/%E6%88%AA%E5%B1%8F2021-08-25%2010.30.19.png)
 
 #### 2.TCP与UDP
