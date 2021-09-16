@@ -2,15 +2,18 @@
 
 ##### OSI七层模型
 
-|层级|层|英文全称|作用简述|通信单位（PDU）|常见协议|
+##### 分层模型对照及信息
+![](https://tuchuang-jiachzha.oss-cn-hangzhou.aliyuncs.com/img/2021010409370574.gif)
+
+|层级|层|英文全称|作用简述|通信单位(PDU)|常见协议|
 |---|---|---|---|---|---|
 |**7**|应用层|Application Layer|允许访问网络资源（指的是TCP/IP协议里广义的应用层）|报文（Message）|**HTTP**, **HTTPS**, **FTP**, TFTP, SMTP, POP3, *TELNET*, *IMAP*|
-|**6**|表示层|Presentation Layer|数据的转换，加密，压缩|/|LPP, JPEG, MPEG4|
-|**5**|会话层|Session Layer|建立，管理，终止会话|/|SSL, TLS, DAP, LDAP|
-|**4**|运输层|Transport Layer|提供可靠的进程到进程的交付和差错恢复|/|**TCP**, **UDP**|
+|**6**|表示层|Presentation Layer|数据的转换，加密，压缩|报文(Message)|LPP, JPEG, MPEG4|
+|**5**|会话层|Session Layer|建立，管理，终止会话|报文(Message)|SSL, TLS, DAP, LDAP|
+|**4**|传输层|Transport Layer|提供可靠的进程到进程的交付和差错恢复|Segment TPU段(有序)、UDP段|**TCP**, **UDP**|
 |**3**|网络层|Network Layer|从源到终点传送分组，提供网络互联，负责网络中两个主机之间的通信|分组|IP, ICMP, RIP, IGMP, OSPF|
 |**2**|数据链路层|Data Link Layer|将比特组织成帧结构，提供逐跳交付，负责网络中两个相邻结点之间的通信|数据帧（Dataframe）|以太网, 网卡, 交换机, PPTP, L2TP, **ARP**, ATMP|
-|**1**|物理层|Physical Layer|经过媒体透明的传输比特流|比特流（bit|物理线路, 光纤, 中继器, 集线器, 双绞线|
+|**1**|物理层|Physical Layer|经过媒体透明的传输比特流|比特流（bit)|物理线路, 光纤, 中继器, 集线器, 双绞线|
 
 
 #### 2.TCP与UDP
