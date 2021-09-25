@@ -5,4 +5,5 @@
 * [IP地址与子网掩码相关原理简介](subnet_ip)
 * [ARP](ARP.md)
 * [暂未分类](uncategory.md)
+* [算法](algorithm.md)
 * [Stay Hugry, Stay Foolosh](stay_hungry_stay_foolish)
