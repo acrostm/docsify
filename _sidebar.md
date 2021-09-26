@@ -6,4 +6,5 @@
 * [ARP](ARP.md)
 * [暂未分类](uncategory.md)
 * [算法](algorithm.md)
+* [《计算机网络》笔记](computer_net.md)
 * [Stay Hugry, Stay Foolosh](stay_hungry_stay_foolish)
