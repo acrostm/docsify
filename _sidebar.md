@@ -7,4 +7,5 @@
 * [暂未分类](uncategory.md)
 * [算法](algorithm.md)
 * [《计算机网络》笔记](computer_net.md)
+* [测试理论](test.md)
 * [Stay Hugry, Stay Foolosh](stay_hungry_stay_foolish)
